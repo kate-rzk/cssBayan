@@ -12,6 +12,10 @@ ul {
   color: #2f398f;
 }
 
+label {
+  cursor: pointer;
+}
+
 .body {
   max-width: 1220px;
   margin: auto;
@@ -38,7 +42,7 @@ ul {
   ul {
     color: #1d1d1d;
   }
-  .icon {   
+  .icon {
     display: block !important;
   }
 }
