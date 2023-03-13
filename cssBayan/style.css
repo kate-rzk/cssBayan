@@ -64,15 +64,6 @@ label {
   }
 }
 
-@keyframes appearance {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @media (hover: hover) {
   .list:hover {
     color: #1d1d1d;
