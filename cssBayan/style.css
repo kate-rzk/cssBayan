@@ -32,8 +32,8 @@ label {
     line-height: 1.4em;
   }
   .image {
-    max-width: 13em;
-    max-height: 20em;
+    width: 13em !important;
+    height: 20em !important;
     background-size: cover;
   }
 }
@@ -58,8 +58,8 @@ label {
     line-height: 1.2em;
   }
   .image {
-    max-width: 9em;
-    max-height: 14em;
+    width: 9em !important;
+    height: 14em !important;
     background-size: cover;
   }
 }
