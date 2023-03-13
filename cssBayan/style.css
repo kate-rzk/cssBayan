@@ -17,7 +17,7 @@ label {
 }
 
 .body {
-  max-width: 1220px;
+  max-width: 90%;
   margin: auto;
 }
 
@@ -27,7 +27,7 @@ label {
     line-height: 1.8em;
   }
   .body {
-    padding: 0 50px;
+    padding: 0 5%;
     font-size: 1.4em;
     line-height: 1.4em;
   }
@@ -53,7 +53,6 @@ label {
     line-height: 1.4em;
   }
   .body {
-    padding: 0 30px;
     font-size: 1.2em;
     line-height: 1.2em;
   }
@@ -86,12 +85,16 @@ label {
 
 .list {
   cursor: pointer;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .list__item {
-  border-top: 2px solid #dadad0;
+  border-top: 0.12em solid #dadad0;
   cursor: pointer;
+}
+
+.list__item:active {
+  opacity: 0.5;
 }
 
 .input {
@@ -127,8 +130,8 @@ label {
 
 .icon {
   display: none;
-  width: 0.9em;
-  height: 1em;
+  min-width: 0.9em;
+  min-height: 1em;
   background-image: url(images/plus.svg);
   background-position: center;
   background-repeat: no-repeat;
