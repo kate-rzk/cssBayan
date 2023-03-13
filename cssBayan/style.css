@@ -83,7 +83,9 @@ label {
   }
 
   .list__item:hover .image {
-    display: block;
+    max-height: 100vh;
+    opacity: 1;
+    max-width: 100vw;
   }
 
   .list__item:hover .icon {
@@ -106,7 +108,9 @@ label {
 }
 
 .input:checked ~ .image {
-  display: block;
+  max-height: 100vh;
+  opacity: 1;
+  max-width: 100vw;
 }
 
 .input:checked ~ .item__title {
@@ -141,14 +145,14 @@ label {
 }
 
 .image {
-  display: none;
+  max-height: 0;
+  opacity: 0;
+  max-width: 0;
+  transition: all 0.7s ease-in-out;
   margin: 0 auto;
   width: 17em;
   height: 23.9em;
   background-position: center;
-  animation-name: appearance;
-  animation-duration: 1.5s;
-  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
 }
 
 .image_logo {
